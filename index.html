@@ -1,10 +1,31 @@
 <!DOCTYPE html>
+<html lang="en">
     <head>
         <title>edem</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="baseOptions.css">
+        <link rel="stylesheet" href="style.css">          
     </head>
     <body>
-        
+        <div class="nav">
+            <div class="nav-left">
+                <img class="logo" src="logo.png" alt="Website logo">
+            </div>
+            <div class="nav-center" id="nav-searchbar">
+                <form name="site-search" role="search" accept-charset="utf-8">
+                    <div class="nav-center">
+                        <div class="nav-search-wrapper">
+                            <input type="text" id="nav-search" placeholder="Search for anything" title="Search For" autocomplete="off">
+                        </div>
+                    </div>          
+                    <input type="submit" value="Search" title="Search" class="nav-button">
+                </form>       
+            </div>
+            <div class="nav-right">
+                <a href="#">Login</a>
+                <a href="#">Sign up</a>
+            </div>          
+        </div>
     </body>
 </html>
