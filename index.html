@@ -2,30 +2,68 @@
 <html lang="en">
     <head>
         <title>edem</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="baseOptions.css">
-        <link rel="stylesheet" href="style.css">          
+        <meta  charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/baseOptions.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <script defer src="js/main.js"></script>         
     </head>
     <body>
-        <div class="nav">
-            <div class="nav-left">
-                <img class="logo" src="logo.png" alt="Website logo">
+        <header class="header open">
+            <div class="nav">
+                <div class="nav-left">
+                    <img class="logo" src="logo.png" alt="Website logo">
+                </div>
+                <div class="nav-center" id="nav-searchbar">
+                    <form name="site-search" role="search" accept-charset="utf-8">
+                        <div class="nav-center">
+                            <div class="nav-search-wrapper">
+                                <input type="text" id="nav-search" placeholder="Search for anything" title="Search For" autocomplete="off">
+                            </div>
+                        </div>          
+                        <input type="submit" value="Search" title="Search" class="nav-btn">
+                    </form>       
+                </div>
+                <div class="nav-right">
+                    <a href="#">Sign in</a>
+                </div>          
             </div>
-            <div class="nav-center" id="nav-searchbar">
-                <form name="site-search" role="search" accept-charset="utf-8">
-                    <div class="nav-center">
-                        <div class="nav-search-wrapper">
-                            <input type="text" id="nav-search" placeholder="Search for anything" title="Search For" autocomplete="off">
-                        </div>
-                    </div>          
-                    <input type="submit" value="Search" title="Search" class="nav-button">
-                </form>       
+            <div class="nav-bottom">
+                <button class="header-burger-btn" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                Text 1
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                Text 2
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                Text 3
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                Text 4
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="sign-in">
+                    <a href="#">Sign-in</a>
+                </div>
             </div>
-            <div class="nav-right">
-                <a href="#">Login</a>
-                <a href="#">Sign up</a>
-            </div>          
-        </div>
+        </header>       
     </body>
 </html>
