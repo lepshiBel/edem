@@ -213,6 +213,7 @@
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
+
 .categories {
     background-color: rgb(247, 247, 247);
 }
@@ -235,7 +236,49 @@
     width: fit-content;
 }
 
+.deals {
+    background-color: rgb(247, 247, 247);
+}
+.deals .section-name {
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+}
+.deals .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.deals .container .item {
+    padding: 40px;
+    margin: 40px;
+    font-size: 25px;
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+}
 
+.best-sellers {
+    background-color: rgb(247, 247, 247);
+}
+.best-sellers .section-name {
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+}
+.best-sellers .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.best-sellers .container .item {
+    padding: 40px;
+    margin: 40px;
+    font-size: 25px;
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+}
 
 
 
